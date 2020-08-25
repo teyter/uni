@@ -1,0 +1,7 @@
+a) UNKNOWN
+
+b) false
+
+c) false
+
+d) true

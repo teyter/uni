@@ -1,0 +1,5 @@
+get eg runnad sql skipanir ur .sql skra frekar en beint i sql skel
+
+get eg baett vid attribute a domain ef thad eru thegar items i toflunni
+
+get eg editad items i toflu i textaskra
