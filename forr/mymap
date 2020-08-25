@@ -1,0 +1,10 @@
+(define (mymap f x)
+  (if (null? x)
+      '()
+      (cons (f (car x)) (mymap f (cdr x)))
+      )
+  )
+
+(define (f y)
+  (* y y)
+  )

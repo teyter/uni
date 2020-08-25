@@ -1,0 +1,25 @@
+public class hop2 {
+    public static int innerSum(int[][] x) {
+        int prod = 1;
+        int sum = 0;
+        int ii = x.length;
+        int jj = x[ii-1].length;
+        for (int i = 0; i < ii; i++)  {
+            for (int j = 0; j < jj; j++) {
+                prod *= x[i][j];
+                sum += prod;
+            }
+            System.out.println( prod );
+            prod = 1;
+        } 
+        return prod;
+    }
+    public static void main(String[] args) {
+        int[][] a = {
+            {1,2},
+            {3,4},
+            {5,6}
+        };
+        innerSum(a);
+    }
+}

@@ -1,0 +1,20 @@
+;; Notkun: (mymap f x)
+;; Fyrir: f er fall sem tekur eitt vidfang
+;;        x er listi (x1 ... xN)
+;; Gildi: Listinn (y1 ... yN) thar sem
+;;                 y1 er (f xI)
+(define (mymap f x)
+  (if (null? x)
+      '()
+      (cons (f (car x)) (mymap f (cdr x)))
+      )
+  )
+(define (fact n)
+  (define (hjalp n x)
+    (if (= n 0)
+        x
+        (hjalp (- n 1) (* n x))
+        )
+    )
+  (hjalp n 1)
+  )

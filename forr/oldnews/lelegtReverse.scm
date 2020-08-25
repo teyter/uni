@@ -1,0 +1,12 @@
+(define (rev1 x) 
+  (define (append1 x y)
+    (if (null? x)
+        (list y)
+        (cons (car x) (append1 (cdr x) y))
+        )
+    )
+  (if (null? x)
+      x
+      (append1 (rev1 (cdr x)) (car x))
+      )
+  )
