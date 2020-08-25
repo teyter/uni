@@ -1,0 +1,23 @@
+public class eydaNullum {
+    public static int[] eydaNullum(int[] a) {
+
+        int N = 20;
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (a[i] > 0) {
+                count++;
+            }
+        }
+        int[] b = new int[count];
+        int var = 0; 
+
+        for (int i = 0; i < N; i++) {
+            if (a[i] > 0) {
+                b[var] = a[i];
+                var++;
+            }
+        }
+        return b;
+    }
+}

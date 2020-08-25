@@ -1,0 +1,10 @@
+public class Div7 {
+	public static void main(String[] args) {
+			int a = Integer.parseInt(args[0]);
+			int b = Integer.parseInt(args[1]);
+			boolean seven = (7 % a == 0);
+			boolean alsoseven = (7 % b == 0);
+			System.out.println(seven);
+			System.out.println(alsoseven);
+	}
+}

@@ -1,0 +1,27 @@
+public class Trimjob {
+    public static double trmean(double[] a) {
+        double svindl = 0;
+        double trmean = 0;
+        double max = StdStats.max(a);
+        double min = StdStats.min(a);
+        for (int i = 0; i < a.length; i++) {
+            svindl += a[i];
+        }
+        svindl = svindl - max - min;
+        trmean = StdStats.mean(svindl);
+        
+        return trmean;
+    }
+    public static void main(String[] args) {
+        double[] a = new double[10];
+        StdOut.println("Fylki: ");
+        for (int i = 0; i < a.length; i++) {
+            a[i] = Math.random()*11.0;
+            StdOut.printf("%.4f\n", a[i]);
+        }
+        double mean = StdStats.mean(a);
+        double klippt = trmean(a);
+        StdOut.printf("Average: %.4f\n", mean);
+        StdOut.printf("TrimMean: %.4f\n", klippt);
+    }
+}

@@ -1,0 +1,16 @@
+public class Average {
+    public static void main(String[] args) {
+        // Average the numbers on the standard input
+        double sum = 0.0;
+        int n = 0;
+        while (!StdIn.isEmpty()) {
+            // Read a number from the standard input and add to sum
+            double value = StdIn.readDouble();
+            sum *= value;
+            n++;
+        }
+        double average = Math.pow(sum, (1.0/n));
+        StdOut.println("Average is " + average);
+    }
+}
+

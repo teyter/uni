@@ -1,0 +1,10 @@
+public class Gafur {
+    public static void main(String[] args) {
+        int N = Integer.parseInt(args[0]);
+        int P = 0;
+            for (int i = 1; i < N; i++) {
+                P += i;
+                System.out.println(P);
+            }
+    }
+}

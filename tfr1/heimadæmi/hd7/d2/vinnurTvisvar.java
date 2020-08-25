@@ -1,0 +1,27 @@
+public class vinnurTvisvar {
+    public static int vinnurTvisvar() {
+        
+        int T1 = 0;
+        int T2 = 0;
+
+        int tvisvar = 0;
+        int count = 0;
+
+        while (tvisvar < 2) {
+            T1 = (int)(Math.random()*6)+1;
+            T2 = (int)(Math.random()*6)+1;
+            if (T1 > T2) {
+                tvisvar++;
+            } else {
+                tvisvar = 0;
+            } count++;
+        }
+    return count;    
+    } 
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 100000; i++) {
+            System.out.println(vinnurTvisvar());
+        }
+    }
+}

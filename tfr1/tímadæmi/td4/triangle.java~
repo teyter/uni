@@ -1,0 +1,28 @@
+public class triangle {
+    public static void main(String[] args) {
+        
+        int haed;
+        int rod;
+        int bil;
+        int tag;
+
+        do 
+        {
+            haed = Integer.parseInt(args[0]);
+        }
+        while ((haed < 0) || (haed > 23));
+
+        for (rod = 1; rod <= haed; rod++)
+        {
+            for (bil = (haed - rod); bil > 0; bill--)
+            {
+                System.out.print(" ");
+            }
+            for (tag = 1; tag <= (rod + 1); tag++)
+            {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+    }
+}

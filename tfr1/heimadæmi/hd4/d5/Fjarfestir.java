@@ -1,0 +1,41 @@
+public class Fjarfestir {
+    public static void main(String[] args) {
+        int upph = Integer.parseInt(args[0]);
+        int tap = Integer.parseInt(args[1]);
+        int grodi = Integer.parseInt(args[2]);
+        int T = Integer.parseInt(args[3]);
+        double likur = Double.parseDouble(args[4]);
+
+        int upphAfrit = upph;
+        int selt_i_groda = 0;
+        int peningar = 0;
+        int dagar = 0;
+        int allirDagar = 0;
+
+        for (int i = 0; i < T; i++) { 
+            while (upph > tap && upph < grodi) {
+                boolean swag = (Math.random() > likur);
+                if (swag) {
+                    upph--;
+                } else {
+                    upph++;
+                }
+                dagar++;
+            }
+            if (upph == grodi) {
+                selt_i_groda++;
+            }
+            peningar += upph;
+            allirDagar += dagar;
+            upph = upphAfrit;
+            dagar = 0;
+        }
+        double grodiSala = ((double)selt_i_groda / T) * 100;
+        double medalUtkoma = (double)peningar / T;
+        double medalDagar = (double)allirDagar / T;
+
+        System.out.println("Hlutfall sala með gróða = " + grodiSala + "%");
+        System.out.println("Meðalútkoma fjárfestis = " + medalUtkoma);
+        System.out.println("Meðalfjöldi daga = " + medalDagar);
+    }
+}
