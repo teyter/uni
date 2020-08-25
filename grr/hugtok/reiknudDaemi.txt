@@ -1,0 +1,45 @@
+3
+k-minnstu
+endurkvaemnistre
+n-staka fylki
+4
+fibonacci
+half-fibonacci
+largest sum, contigous subarray
+5
+candy swap saga
+1 to n
+vankin's mile
+n x n square grid
+6
+huffman
+7
+Finna5
+Huffman
+random()
+lokatre
+split
+treap
+10 stafa streng
+nei-fylki
+fail array
+bestad nei
+8
+slembitolugjafi
+9
+10
+extendable array
+addtofront
+addtoend
+lookup
+bloraboggultre
+11
+dirty binary search tree
+union-find, logn
+sameina og finna
+union-by-rank
+12
+tviflokka
+bipartite
+Kosaraju-Sharir
+rev(G)

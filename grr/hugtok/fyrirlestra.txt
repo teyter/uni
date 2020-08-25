@@ -1,0 +1,93 @@
+2
+tower of hanoi
+mergesort
+quicksort
+3
+leidslur
+expected time, quickselect, random pivot
+momselect
+4
+mismunajafna, tre adferd
+karastuba
+5
+5 drottninga, 5 queen
+subsetsum, hlutmengissumma
+6
+lykla, tvileitartre, binary search tree, bst
+LIS
+tidnigildi
+7
+fibonacci
+haekkandi hlutruna, subset LIS
+8
+expected length
+LISbigger
+9
+edit distance, breytingarfjarlaegd
+Edit-fylki
+safnid
+tviletartre, bst, binary search tree
+hornalina, optcost
+10
+laegsta heildarkostnad
+kodalengd,huffman
+abraca, a:20
+thjappa
+medan rand
+skrifbolt
+loggengu
+14
+priority
+haekkandi, treap
+treap, rot, laegsta forgangsgildi
+15
+brute force, mynstur
+mod, false match, fingrafor
+16
+stoduvel, banana, mynstur
+proper prefix
+suffix
+fail[
+17
+fail
+Decrement
+Laekka
+k-buta
+O(nk)
+18
+endurtekin gildi tvileitar
+haekka / laekka
+lazy, eager
+19
+rakningarvensl
+bloraboggul, scape goat
+20
+finna sameina
+vegtjoppun, path compression, sameining eftir stigi, union by rank
+volundarhus
+21
+net 32 128
+grannfylki
+bitafylki
+grannlista
+intervals, bilum
+DFS, djupleit
+22
+v.for
+v.eftir
+v.pre
+v.post
+grannfraedilega, topological sort
+stefnunet G, active, djupleit, stika
+23
+sterktengdir
+kosaraju-sharir
+IN,OUT,DISC
+Thverslaufuskip
+24
+sterktengda hluta netsins, G
+relaxations, Dijkstra
+Ulfur lamb hey net
+25
+neikvaedar thyngdir, stysti vegur net, hring
+

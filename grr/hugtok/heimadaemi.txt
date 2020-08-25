@@ -1,0 +1,89 @@
+1
+baendamargfoldun, peasant multiplication
+grindarreiknirit, lattice multiplication
+2
+partition,mergesort
+stable,quicksort,ternary search
+momselect
+3
+endurkvaemnistre,recursion tree
+two sorted arrays, logn time
+k smallest number
+karastuba,setsum
+4
+LISbigger
+lyklafylki
+tvileitartre
+tetranacci,fjornacci
+rakningarvensl
+5
+LISbigger
+edit distance
+common subsequence
+common supersequence
+n verk audkennd,
+kvika bestun,
+hlutmengissumma,subset sum,
+6
+5-staka radad lyklafylki,
+optcost,optimalBST
+tidnidreifing, lyklar,
+scheduling classes
+huffman
+7
+deila og drottna
+n-staka oradad fylki
+3n/2-2
+kvik bestun, prof 2019, subsetsum,dynamic programming,memorization
+prof 2019
+stafrof,4 takn, huffman
+a: 000
+prof 2010, huffman, 
+Min3, Monte Carlo
+8
+lyklagildi, E(5), treap, forgangsgildi
+profdaemi 2019, right rotate
+Lemma 4.8, 2cln(n)
+rabin-karp
+k mynstrin,
+false match
+9
+fail-fylki
+abcca
+nei-fylki
+prof 2018,
+8 stafa streng P
+knuth-morris-pratt
+amoritized
+stoduvel
+n gagnagrind,
+ad jafnadi
+KMP
+10
+prof 2019,
+lyklar, gagnagrind
+bloraboggultre, scapegoat tree
+gnarley trees
+treap
+union-find
+union-by-rank
+path compression
+kaupmannahofn
+euler hring
+euler veg
+11
+d dimensional hypercube
+hamilton cycle
+euler tour
+hypercubes
+djupleit
+DAG
+trestikur,framstikur,bakstrikur
+djupleit,pre,post
+directed graph
+djupleitartre
+krosstika, framstika, tree edge, cross edge
+stefnunet,
+strong components
+strong component graph
+stikumengid
