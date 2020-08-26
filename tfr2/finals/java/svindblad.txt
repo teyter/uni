@@ -1,0 +1,7 @@
+c forrit
+timaflaekju chart
+Node
+    -for loop f. nodes
+    -find()
+    -remove()
+

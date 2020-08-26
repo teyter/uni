@@ -1,0 +1,10 @@
+f4
+    -Stack with Linked list
+    -resizing arrays
+    -Iterable
+    -Iterator
+f6
+    -ShuffleSort
+    -Knuth Shuffle
+    -Merge Sort
+    -Quick Sort

@@ -1,0 +1,54 @@
+\textbf{Big(O) Cheat sheet}
+
+\resizebox{6.5cm}{!}{\begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+\hline
+ & Indexing & Search & Insertion & Deletion & Indexing & Search & insertion & Deletion \\ \hline
+\textbf{Basic Array} & O(1) & O(n) &  &  & O(1) & O(n) &  &  \\ \hline
+\textbf{Dynamic Array} & O(1) & O(n) & O(n) & O(n) & O(1) & O(n) & O(n) & O(n) \\ \hline
+\textbf{Singly-Linked} & O(n) & O(n) & O(1) & O(1) & O(n) & O(n) & O(1) & O(1) \\ \hline
+\textbf{Doubly-Linked} & O(n) & O(n) & O(1) & O(1) & O(n) & O(n) & O(1) & O(1) \\ \hline
+\textbf{Skip List} & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(n) & O(n) & O(n) & O(n) \\ \hline
+\textbf{Hash Table} &  & O(1) & O(1) & O(1) &  & O(n) & O(n) & O(n) \\ \hline
+\textbf{B-S-T} & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(n) & O(n) & O(n) & O(n) \\ \hline
+\textbf{Cartresian Tree} &  & O(log(n)) & O(log(n)) & O(log(n)) &  & O(n) & O(n) & O(n) \\ \hline
+\textbf{B-Tree} & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) \\ \hline
+\textbf{Red-Black Tree} & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) \\ \hline
+\textbf{Splay Tree} &  & O(log(n)) & O(log(n)) & O(log(n)) &  & O(log(n)) & O(log(n)) & O(log(n)) \\ \hline
+\textbf{AVL Tree} & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) \\ \hline
+\end{tabular}}
+
+\resizebox{6.5cm}{!}{\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{SEARCHING} &  & \textbf{Average} & \textbf{Worst} \\ \hline
+\textbf{Depth First Search (DFS)} & Graph of (V) vertices and (E) edges &  & O(|E|+|V|) \\ \hline
+\textbf{Breadth First Search (BFS)} & Graph of (V) vertices and (E) edges &  & O(|E|+|V|) \\ \hline
+\textbf{Binary Search} & Sorted array of n elements & O(log(n)) & O(log(n)) \\ \hline
+\textbf{Linear (Brute Force)} & Array & O(n) & O(n) \\ \hline
+\textbf{Shortest path by Djikstra} & The following two methods &  &  \\ \hline
+\textbf{using a Min Heap as PQ} & Graph of (V) vertices and (E) edges & O((|E|+|t|)log(|V|)) & O((|E|+|t|)log(|V|)) \\ \hline
+\textbf{using an unsorted array as PQ} & Graph of (V) vertices and (E) edges & O(|V|\textasciicircum{}2) & O(|V|\textasciicircum{}2) \\ \hline
+\textbf{Shortest path by Bellman-Ford} & Graph of (V) vertices and (E) edges & O(|V||t|) & O(|V||t|) \\ \hline
+\end{tabular}}
+
+\resizebox{6.5cm}{!}{\begin{tabular}{|l|l|l|l|l|}
+\hline
+\multicolumn{2}{|l|}{\textbf{SORTING ALGORITHMS}} & \textbf{Best} & \textbf{Average} & \textbf{Worst} \\ \hline
+\textbf{Quicksort} & Array & O(n\_log(n)) & O(n\_log(n)) & O(n\textasciicircum{}2) \\ \hline
+\textbf{Mergesort} & Array & O(n\_log(n)) & O(n\_log(n)) & O(n\_log(n)) \\ \hline
+\textbf{Heapsort} & Array & O(n\_log(n)) & O(n\_log(n)) & O(n\_log(n)) \\ \hline
+\textbf{Bubble sort} & Array & O(n) & O(n\textasciicircum{}2) & O(n\textasciicircum{}2) \\ \hline
+\textbf{Insertion sort} & Array & O(n\textasciicircum{}2) & O(n\textasciicircum{}2) & O(n\textasciicircum{}2) \\ \hline
+\textbf{Select sort} & Array & O(n\textasciicircum{}2) & O(n\textasciicircum{}2) & O(n\textasciicircum{}2) \\ \hline
+\textbf{Bucket sort} & Array & O(n+k) & O(n+k) & O(n\textasciicircum{}2) \\ \hline
+\textbf{Radix sort} & Array & O(nk) & O(nk) & O(nk) \\ \hline
+\end{tabular}}
+
+\resizebox{6.5cm}{!}{\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+\textbf{HEAPS} & \textbf{Heapify} & \textbf{Find Max} & \textbf{Extract Max} & \textbf{Increase Key} & \textbf{Insert} & \textbf{Delete} & \textbf{Merge} \\ \hline
+\textbf{Linked List (sorted)} &  & O(1) & O(1) & O(n) & O(n) & O(1) & O(n+n) \\ \hline
+\textbf{Linked List (unsorted)} &  & O(n) & O(n) & O(1) & O(1) & O(1) & O(1) \\ \hline
+\textbf{Binary Heap} & O(n) & O(1) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(n+n) \\ \hline
+\textbf{Binomial Heap} &  & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) & O(log(n)) \\ \hline
+\textbf{Fibonacci Heap} &  & O(1) & O(log(n)) & O(1)* & O(1) & O(log(n))* & O(1) \\ \hline
+\end{tabular}}

@@ -1,0 +1,71 @@
+v4
+    -binarySearch with Counter
+    -Stacj
+    -Parentheses with stack
+    -SinglyLinkedList
+        -remove()
+        -find()
+        
+v5
+    -Queue
+    -DoubleNode
+    -give the Order of Growth of code fragments
+    - write linearithmic program to find pairs
+    -mod BinSearch to return smallest index
+v6
+    -write someSort with O(n)
+    -SelectionSort
+    -Insertion Sort
+    -Develop version of InsertSort
+v7
+    -devise a linearithmic algorithm...
+    -3-way mergesort
+    -Quicksort
+    -Cutoff to InsertionSort
+    -PriorityQueue
+    -Heap
+v8
+    -meira Heap
+    -Minimum Priority Queue     
+    -FrequencyCounter
+    -BST
+    -SymbolTable
+v9
+    -meira BST
+    -draw the resulting tree
+    -"2-3 tree"
+    -Red-Black BST
+v10
+    -Iterator
+    -meira BST
+    -meira RedBlack BST
+        -which of the following are RedBlack BSTs
+    -modify RedBlack BST such that...
+v11
+    -Table
+    -Hash Function
+    -Perfect Hash Function
+    -linear-probing Hash Table
+    -Cuckoo hashing
+    -Weighted Quick Union
+    -UnionFind
+    -Erdös-Renyi model
+v12
+    -Graphs
+        -adjacenty lists
+        -eccentricity
+        -cyclic/acyclic
+    -Directed Graphs
+    -Undirected Graphs
+    -breiddarleit
+    -dýptarleit
+    -Weighted Graph
+        -edge-weighted
+        -vertex-weighted
+v13
+    -DAG: Directed Acyclic Graph
+    -permutation of DAG
+    -topological order of DAG 
+    -vertex-indexed array
+    -DijkstraSP
+    -Source-sink shortest path
